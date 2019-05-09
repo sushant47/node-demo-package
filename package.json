@@ -1,0 +1,28 @@
+{
+  "name": "node-demo",
+  "version": "1.0.0",
+  "description": "Just a demo library for singular and plural nouns",
+  "main": "dist/index.js",
+  "types" : "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philipszdavido/mypluralize.git"
+  },
+  "keywords": [],
+  "author": "sushant bilgi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/philipszdavido/mypluralize/issues"
+  },
+  "homepage": "https://github.com/philipszdavido/mypluralize#readme",
+  "devDependencies": {
+    "@types/pluralize": "0.0.29",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "pluralize": "^7.0.0"
+  }
+}
